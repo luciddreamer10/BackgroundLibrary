@@ -64,5 +64,6 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling:1.6.1")
 
     // Library module dependency
-    implementation(project(":gradientbackground"))
+    implementation("com.github.m-vishal-10:BackgroundLibrary:b1a0a00700")
+    //implementation(project(":gradientbackground"))
 }
