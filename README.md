@@ -36,7 +36,7 @@ dependencyResolutionManagement {
 Include the following dependency in your `build.gradle.kts` file:
 
 ```kotlin
-implementation("com.github.m-vishal-10:BackgroundLibrary:b1a0a00700")
+implementation("com.github.m-vishal-10:BackgroundLibrary:1.3.0")
 ```
 
 Additionally, ensure the following configurations inside the `android { ... }` block for proper compatibility:
