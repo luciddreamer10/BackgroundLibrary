@@ -87,14 +87,14 @@ Box(modifier = Modifier
 
 
 
-**Animated Background**
+**Animated Text**
 This snippet showcases animated and interactive text elements using GradientText, PopOnHoverText, and AnimatedText within a Column() layout for dynamic UI effects.
 
 ``` kotlin
 Column(){
-            GradientText("BottomBar() ", GradientPreset.DeepSea, animationSpeed = 1)
-            PopOnHoverText("PopOnHoverText() ")
-            AnimatedText("AnimatedText() ")
+            GradientText("GradientText ", GradientPreset.DeepSea, animationSpeed = 1)
+            PopOnHoverText("PopOnHoverText ")
+            AnimatedText("AnimatedText ")
 }
 ```
 
