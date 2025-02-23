@@ -1,4 +1,4 @@
-package com.vishal.gradientbackground
+package com.vishal.gradientbackground.background
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background

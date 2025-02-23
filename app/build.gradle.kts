@@ -59,11 +59,12 @@ dependencies {
     implementation("androidx.compose.material:material:1.6.1")
     implementation("androidx.compose.ui:ui-tooling-preview:1.6.1")
     implementation(libs.material3.android)
+    implementation(project(":gradientbackground"))
 
     // Debugging tools
     debugImplementation("androidx.compose.ui:ui-tooling:1.6.1")
 
     // Library module dependency
-    implementation("com.github.m-vishal-10:BackgroundLibrary:b1a0a00700")
-    //implementation(project(":gradientbackground"))
+    //implementation("com.github.m-vishal-10:BackgroundLibrary:b1a0a00700")
+    implementation(project(":gradientbackground"))
 }

@@ -1,22 +1,17 @@
-package com.vishal.gradientbackground
+package com.vishal.gradientbackground.background
 
 import androidx.compose.ui.graphics.asAndroidPath
 
 
 import android.graphics.Paint
-import android.graphics.PathEffect
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.*
-import androidx.compose.material3.*
 import androidx.compose.runtime.*
-import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.nativeCanvas
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
 
 @Composable
 fun WavyBackground(

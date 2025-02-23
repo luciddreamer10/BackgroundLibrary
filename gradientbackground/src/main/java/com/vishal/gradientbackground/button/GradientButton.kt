@@ -1,4 +1,4 @@
-package com.vishal.gradientbackground
+package com.vishal.gradientbackground.button
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

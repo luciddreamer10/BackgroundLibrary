@@ -1,4 +1,4 @@
-package com.vishal.gradientbackground
+package com.vishal.gradientbackground.background
 
 // Gradients.kt
 

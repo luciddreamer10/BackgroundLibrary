@@ -1,31 +1,29 @@
 package com.vishal.backgroundlibrary
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
-import com.vishal.gradientbackground.background.BackgroundGradients
-import com.vishal.gradientbackground.button.GradientButton
-import com.vishal.gradientbackground.button.NeonGlowButton
+import com.vishal.gradientbackground.text.AnimatedText
+import com.vishal.gradientbackground.text.GradientPreset
+import com.vishal.gradientbackground.text.GradientText
+import com.vishal.gradientbackground.text.PopOnHoverText
 
 @Composable
-fun ButtonDemoScreen() {
+fun TextDemoScreen() {
     Box(modifier = Modifier
-        .background(BackgroundGradients.CottonCandy)
         .fillMaxSize()) {
         Column(
-            modifier = Modifier.fillMaxSize().padding(16.dp),
+            modifier = Modifier.fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally, // Center the text horizontally
             verticalArrangement = Arrangement.Center
         ) {
-            GradientButton("Sample1") { }
-            NeonGlowButton("Sample2") { }
+            GradientText("BottomBar() ", GradientPreset.DeepSea, animationSpeed = 1)
+            PopOnHoverText("PopOnHoverText() ")
+            AnimatedText("AnimatedText() ")
         }
 
     }
