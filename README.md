@@ -80,9 +80,22 @@ Box(modifier = Modifier
             WavyBackground()   // you can access different backgrounds by calling composables here
 }
 ```
-![Wa](https://github.com/user-attachments/assets/fcbe3fe0-f9f5-468b-a84f-aa3974dc417e)
-![Wa (1)](https://github.com/user-attachments/assets/55074ac3-27e7-4cca-9b29-770d7d5b9d84)
-![Wa (2)](https://github.com/user-attachments/assets/814d38c7-4b06-4e81-99d5-ca31cc7fe677)
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/8f2c9480-49a1-449e-a851-eb2c4784508b" width="150"/>
+      <br/>Striped
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/165c7361-d823-4cca-b865-faa47c4c2c6f" width="150"/>
+      <br/>Dotted
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/433ad16c-003e-43a8-9ac3-236d1edbad21" width="150"/>
+      <br/>Wavy
+    </td>
+  </tr>
+</table>
 
 
 
